@@ -3,10 +3,9 @@
 
 
 
-in Xcode5
-You need to replace one line in ioSoch.h:
+    in Xcode5
+      You need to replace one line in ioSoch.h:
 
-#include <CoreServices/../Frameworks/CarbonCore.framework/Headers/MacTypes.h>
-to
-
-#include <MacTypes.h>
+      #include <CoreServices/../Frameworks/CarbonCore.framework/Headers/MacTypes.h>
+      to
+        #include <MacTypes.h>
